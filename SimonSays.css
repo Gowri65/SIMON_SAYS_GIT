@@ -1,0 +1,38 @@
+*{
+text-align: center;
+font-family:cursive ;
+}
+#mainbox{
+    display: flex;
+    width: 300px;
+    height: 300px;
+    flex-wrap: wrap;
+    margin: auto;
+    margin-top: 50px;
+    justify-content: space-between;
+    align-items: last baseline;
+}
+.blue,.green,.pink,.yellow{
+    width: 120px;
+    height: 120px;
+    border: 5px solid black;
+    border-radius: 15px;
+}
+.blue{
+    background-color:rgb(61, 142, 174);
+}
+.pink{
+    background-color: palevioletred;
+}
+.yellow{
+    background-color: yellow;
+}
+.green{
+    background-color: rgb(27, 189, 27);
+}
+.flash{
+    background-color: white ;
+}
+.userflash{
+    background-color: white;
+}
